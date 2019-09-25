@@ -1,0 +1,1 @@
+    route.{{methodType}}('/{{kebabCase controllerName}}',{{#if tokenValidator}}tokenValidator,{{/if}} (req,res) => { new {{pascalCase controllerName}}Controller().main(req,res) });

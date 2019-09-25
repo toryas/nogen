@@ -1,0 +1,6 @@
+{
+    "moduleName":"{{kebabCase moduleName}}",
+    "moduleApi":[
+        
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "apiCode": "",
+    "codeGroup": [
+        {
+            "httpStatus": 200,
+            "code": "0000",
+            "message": "Ok"
+        }
+    ]
+}        

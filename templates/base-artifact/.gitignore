@@ -1,0 +1,60 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Others
+package-lock.json
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/coverage
+/lib
+/variables
+
+# dependencies
+/node_modules
+public/node_modules/*
+.npm-debug.log
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+package-lock.json
+jmeter.log
+/.nyc_output
+
+
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+#test
+/test/seleniumHQ/screenshots/*.png
+/test/seleniumHQ/logs/*.png

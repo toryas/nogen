@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "#util/*": ["src/core/util/*"],
+            "#helpers/*": ["src/core/helpers/*"],
+            "#middleware/*":["src/core/middleware/*"],
+            "#config":["src/config/general.config.js"],
+        }
+    },
+    "exclude": ["node_modules", "dist"]
+}

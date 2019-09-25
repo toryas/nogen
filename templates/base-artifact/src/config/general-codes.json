@@ -1,0 +1,25 @@
+{
+    "moduleName": "generic",
+    "moduleApi": [
+        {
+            "apiCode": "GEN",
+            "codeGroup": [
+                {
+                    "httpStatus": 404,
+                    "code": "0000",
+                    "message": "path api not found"
+                },
+                {
+                    "httpStatus": 401,
+                    "code": "0001",
+                    "message": "Unauthorized access"
+                },
+                {
+                    "httpStatus": 500,
+                    "code": "0002",
+                    "message": "Ups, I don't know what happend"
+                }
+            ]
+        }
+    ]
+}

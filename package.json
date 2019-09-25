@@ -1,0 +1,30 @@
+{
+  "name": "nogen",
+  "version": "0.0.0-beta",
+  "description": "node microservice generator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toryas/nogen.git"
+  },
+  "keywords": [
+    "generator",
+    "cli",
+    "node",
+    "microservice",
+    "gen",
+    "framework"
+  ],
+  "author": "Felipe Nuñez <fnunezd88@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toryas/nogen/issues"
+  },
+  "homepage": "https://github.com/toryas/nogen#readme",
+  "dependencies": {
+    "node-plop": "^0.18.0"
+  },
+  "bin": {
+    "ngn": "index.js"
+  }
+}

@@ -1,0 +1,1 @@
+import {{pascalCase controllerName}}Controller from "./controllers/{{kebabCase controllerName}}.controller";

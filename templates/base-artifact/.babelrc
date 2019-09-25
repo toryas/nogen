@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": true
+        },
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    ["babel-plugin-module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "#util": "./src/core/util",
+        "#config": "./src/config/general.config.js",
+        "#middleware":"./src/core/middleware",
+        "#helpers": "./src/core/helpers"
+      }
+    }]
+  ]
+}
