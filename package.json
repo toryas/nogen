@@ -1,6 +1,6 @@
 {
   "name": "nogen",
-  "version": "0.0.0-beta",
+  "version": "0.0.1-beta",
   "description": "node microservice generator",
   "main": "index.js",
   "repository": {
